@@ -1,0 +1,302 @@
+@media all and (max-width: 800px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        font-size: 10pt;
+        color: #333;
+    }
+
+
+    .path_all {
+        display: none;
+    }
+
+    /* 상단 상품 이미지와 설명 시작 -- */
+    .pro_top_all {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 340px;
+        margin: 20px auto;
+        background: #ddd;
+    }
+    
+        /* 이미지(좌측) 시작--- */
+        .top_box_01 {
+            position: relative;
+            float: left;
+            width: 340px;
+            height: 340px;
+            background: url(../img/detail_top_img_01.jpg);
+             /* 좌측 큰 사진 */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* 가운데 여백 삭제 --- */
+        .top_box_02 {
+            display: none;
+        }
+
+        /* 우측 멘트 부분 시작 ------ */
+        .top_box_03 {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: auto;
+        }
+            #ment_01 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+            #ment_02 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 20px;
+                font-size: 0.9rem;
+                color: #f00;
+            }
+            #ment_03 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 20px;
+                background: url(../img/line_01.gif);
+                background-repeat: repeat-x;
+                background-position: left center;
+            }
+            #ment_04 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 40px;
+            }
+                #ment_04_01 {      
+                    position: relative;
+                    float: left;
+                    width: 40%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+                }
+                #ment_04_02 {      
+                    position: relative;
+                    float: left;
+                    width: 60%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: right;
+                }
+            #ment_05 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 40px;
+            }
+                #ment_05_01 {      
+                    position: relative;
+                    float: left;
+                    width: 40%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+                }
+                #ment_05_02 {      
+                    position: relative;
+                    float: left;
+                    width: 60%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: right;
+                }
+            #ment_06 {               /* 기본옵션 ---*/
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 48px;
+                line-height: 48px;
+                border-top: 1px solid #333;
+                border-bottom: 1px solid #333;   
+                background: #f1f1f1;
+            }
+
+                /* ment_07과 ment_08은 통합-----*/
+            #ment_07, #ment_08 {               /* 색상(드롭다운) ---*/
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 40px;
+                margin-top: 10px;
+            }
+                #ment_07_01, #ment_08_01 {
+                    position: relative;
+                    float: left;
+                    width: 100px;
+                    height: 40px;
+                    line-height: 40px;
+                }
+                #ment_07_02, #ment_08_02 {
+                    position: relative;
+                    float: left;
+                    width: 240px;
+                    height: 40px;
+                    top: 0px;
+                }
+                    #ment_07_02 > select, #ment_08_02 > select {
+                        position: absolute;
+                        left: 40px;
+                        top: 5px;
+                        width: 200px;
+                        height: 30px;
+                        background: rgb(249, 255, 172);
+                    }
+            #ment_09 {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 40px;
+                background: url(../img/line_01.gif);
+                background-repeat: repeat-x;
+                background-position: left center;
+            }
+
+            #ment_10 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 40px;
+            }
+                #ment_10_01 {      
+                    position: relative;
+                    float: left;
+                    width: 40%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+                }
+                #ment_10_02 {      
+                    position: relative;
+                    float: left;
+                    width: 60%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: right;
+                }
+
+            #ment_11 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 40px;
+            }
+                #ment_11_01 {      
+                    position: relative;
+                    float: left;
+                    width: 40%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+                }
+                #ment_11_02 {      
+                    position: relative;
+                    float: left;
+                    width: 60%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: right;
+                }
+            #ment_12 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 40px;
+            }
+                #ment_12_01 {      
+                    position: relative;
+                    float: left;
+                    width: 40%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+                }
+                #ment_12_02 {      
+                    position: relative;
+                    float: left;
+                    width: 60%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: right;
+                }
+
+            #ment_13 {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 40px;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+            }
+                #ment_13_01 {       /* 텍스트 - ♡ ---*/
+                    position: relative;
+                    float: left;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    border: 1px solid #ddd;
+                    background: #f1f1f1;
+                }
+                #ment_13_01:hover {     /* 텍스트:hover - ♡ ---*/
+                    border: 1px solid #333;
+                    background: #fff;
+                    font-size: 1.2rem;
+                    color: #000;
+                }
+                #ment_13_02 {       /* 텍스트 - ♡ ---*/
+                    position: relative;
+                    float: left;
+                    width: 120px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    border: 1px solid #ddd;
+                    background: #f1f1f1;
+                }
+                #ment_13_02:hover {     /* 텍스트:hover - ♡ ---*/
+                    border: 1px solid #333;
+                    background: #fff;
+                    font-size: 1.2rem;
+                    color: #000;
+                }
+
+                #ment_13_03 {       /* 텍스트 - ♡ ---*/
+                    position: relative;
+                    float: left;
+                    width: 120px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    border: 1px solid #ddd;
+                    background: #f1f1f1;
+                }
+                #ment_13_03:hover {     /* 텍스트:hover - ♡ ---*/
+                    border: 1px solid #333;
+                    background: #fff;
+                    font-size: 1.2rem;
+                    color: #000;
+                }
+
+
+
+
+        }

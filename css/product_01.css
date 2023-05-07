@@ -1,0 +1,705 @@
+.path_all {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+    #path_01 {
+        positon: relative;
+        clear: both;
+        width: 1400px;
+        height: 50px;
+        line-height: 50px;
+        text-align: right;
+    }
+
+/* 상단 상품 이미지와 설명 시작 -- */
+.pro_top_all {
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+
+/* 이미지(좌측) 시작--- */
+.top_box_01 {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 650px;
+    background: url(../img/detail_top_img_01.jpg); /* 좌측 큰 사진 */
+}
+.top_box_02 {
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 650px;
+}
+.top_box_03 {
+    position: relative;
+    float: left;
+    width: 780px;
+    height: 650px;
+}
+
+    #ment_01 {                  /* 상품멘트--- */
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #ment_02 {                  /* FREE --- */
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 20px;
+        line-height: 20px;
+        color: #f00;
+    }
+    #ment_03 {                  /* 수평선 --- */
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 40px;
+        line-height: 40px;
+        background: url(../img/line_01.gif);
+        background-repeat: repeat-x;
+        background-position: left center;
+    }
+    #ment_04 {               /* 판매가 + 123,800원--- */
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;     
+    }
+        #ment_04_01 {       /* 판매가 --- */
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            text-align: left;
+        }
+        #ment_04_02 {       /* 123,800원 --- */
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            text-align: left;
+        }
+    #ment_05 {               /* 적립금+1230원 --- */
+            position: relative;
+            clear: both;
+            width: 780px;
+            height: 50px;
+            line-height: 50px;     
+    }
+        #ment_05_01 {       /* 적립금 ---*/
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            text-align: left;
+        }
+        #ment_05_02 {       /* 1230원 ---*/
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            text-align: left;
+        }
+    #ment_06 {               /* 기본옵션 ---*/
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 48px;
+        line-height: 48px;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;   
+    }
+
+    #ment_07 {               /* 색상(드롭다운) ---*/
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+        background: #fff;
+    }
+        #ment_07_01 {
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            line-height: 50px;
+            text-align: left;
+        }
+        #ment_07_02 {
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            line-height: 50px;
+            top: 5px;
+            text-align: left;
+        }
+            #ment_07_02 > select {
+                width: 200px;
+                height: 30px;
+                background: #f1f1f1;
+            }
+    #ment_08 {               /* 사이즈 + 드롭다운 ---*/
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+        #ment_08_01 {       /* 사이즈 --- */
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            line-height: 50px;
+            text-align: left;
+        }
+        #ment_08_02 {       /* 드롭다운 버튼 --- */
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            line-height: 50px;
+            text-align: left;
+            top: 5px;
+        }
+            #ment_08_02 > select {
+                width: 200px;
+                height: 30px;
+                background: #f1f1f1;
+            }
+    #ment_09 {              /* 수평선 --- */
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+        background: url(../img/line_01.gif);
+        background-repeat: repeat-x;
+        background-position: left center;
+    }
+    #ment_10 {              /* 총금액 + 123,800원 */
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+        #ment_10_01 {       /* 총금액 --- */
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            text-align: left;
+        }
+        #ment_10_02 {       /* 123,800원 --- */
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            text-align: left;
+        }
+    #ment_11 {              /* 공유하기 + 아이콘 --- */
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+        #ment_11_01 {      /* 공유하기 --- */
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            text-align: left;
+        }
+        #ment_11_02 {       /* 아이콘 3~4개 --- */
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            text-align: left;
+        }
+    #ment_12 {              /* 해외배송 + 아이콘 --- */
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 50px;
+        line-height: 50px;
+    }
+        #ment_12_01 {       /* 해외배송 ---*/
+            position: relative;
+            float: left;
+            width: 40%;
+            height: 50px;
+            text-align: left;
+        }
+        #ment_12_02 {       /* 아이콘 ---*/
+            position: relative;
+            float: left;
+            width: 60%;
+            height: 50px;
+            line-height: 50px;
+        }
+    #ment_13 {              /* ♡ + 바로구매 + 장바구니 ---*/
+        position: relative;
+        clear: both;
+        width: 750px;
+        height: 50px;
+        line-height: 50px;
+    }
+        #ment_13_01 {       /* 텍스트 - ♡ ---*/
+            position: relative;
+            float: left;
+            width: 100px;
+            height: 46px;
+            font-size: 1.5rem;
+            line-height: 46px;
+            text-align: center;
+            border: 1px solid #ddd;
+            background: #f1f1f1;
+            margin-left: 10px;
+            transition: all 1s;
+        }
+        #ment_13_01:hover {     /* 텍스트:hover - ♡ ---*/
+            border: 1px solid #333;
+            background: #fff;
+            font-size: 1.5rem;
+            color: #000;
+        }
+        #ment_13_02 {           /* 바로 구매 */
+            position: relative;
+            float: left;
+            width: 200px;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            background: #f1f1f1;
+            color: #333;
+            border: 1px solid #ddd;
+            margin-left: 10px;
+            transition: all 1s;
+        }
+        #ment_13_02:hover {     /*바로구매 --- */
+            color: #333;
+            background: #fff;
+            border: 1px solid #333;
+        }
+        #ment_13_03 {               /* 텍스트 - ♡ ---*/
+            position: relative;
+            float: left;
+            width: 200px;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            background: #ddd;
+            color: #333;
+            margin-left: 10px;
+            border: 1px solid #fff;
+            transition: all 1s;
+        }
+        #ment_13_03:hover {     /* 텍스트 - ♡ ---*/
+            color: #333;
+            background: #fff;
+            border: 1px solid #333;
+        }
+    #ment_14 {
+        position: relative;
+        clear: both;
+        width: 780px;
+        height: 36px;
+        border-bottom: 1ps solid #333;
+    }
+
+    /* 상세페이지 상품이미지 시작 --- */
+    .photo_box_01 {
+        position: relative;
+        clear: both;
+        width: 1400px;
+        height: 1000px;
+        margin: 50px auto;
+    }
+        .font_01 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 3rem;
+            color: #333;
+            text-align: center;
+            margin: 0 auto;
+            background: #fff;
+        }
+        .photo_01 {
+            position: relative;
+            clear: both;
+            width: 600px;
+            height: 800px;
+            margin: 50px auto;
+        }
+
+    .photo_box_02 {
+        position: relative;
+        clear: both;
+        width: 1400px;
+        height: 1600px;
+        margin: 50px auto;
+    }
+        .font_02 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 3rem;
+            color: #333;
+            text-align: center;
+            margin: 0 auto;
+            background: #fff;
+        }
+        .photo_02 {
+            position: absolute;
+            left: 200px;
+            top: 100px;
+            width: 600px;
+            height: 800px;
+            margin: 50px auto;
+        }
+        .photo_03 {
+            position: absolute;
+            left: 600px;
+            top: 700px;
+            width: 600px;
+            height: 800px;
+            margin: 50px auto;
+        }
+    .photo_box_03 {
+        position: relative;
+        clear: both;
+        width: 800px;
+        height: 400px;
+        margin: 50px auto;
+    }
+        .photo_04 {
+            position: relative;
+            clear: both;
+            width: 500px;
+            height: 300px;
+            margin: 0px auto;
+        }
+    .photo_box_04 {
+        position: relative;
+        clear: both;
+        width: 800px;
+        height: 700px;
+        margin: 0px auto;
+    }
+        .font_03 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 200px;
+            line-height: 200px;
+            font-size: 8rem;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 auto;
+            background: #fff;
+        }
+        .font_04 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 400px;
+            line-height: 80px;
+            font-size: 3rem;
+            color: #333;
+            text-align: center;
+            margin: 0 auto;
+            background: #fff;
+        }
+    .photo_box_05 {
+        position: relative;
+        clear: both;
+        width: 800px;
+        height: 1000px;
+        margin: 0px auto;
+        background: #f1f1f1;
+    }
+        .font_05 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 200px;
+            line-height: 200px;
+            font-size: 8rem;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 auto;
+            background: #fff;
+        }
+        .photo_05 {
+            position: relative;
+            clear: both;
+            width: 700px;
+            height: 700px;
+            margin: 50px auto;
+        }
+
+    .photo_box_06 {
+        position: relative;
+        clear: both;
+        width: 800px;
+        height: 600px;
+        margin: 100px auto;
+    }
+        .font_06 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 200px;
+            line-height: 200px;
+            font-size: 8rem;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 auto;
+            background: #fff;
+        }
+        .font_07 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 400px;
+            line-height: 80px;
+            font-size: 3rem;
+            color: #333;
+            text-align: center;
+            margin: 0 auto;
+            background: #fff;
+        }
+
+    .photo_box_07 {
+        position: relative;
+        clear: both;
+        width: 1000px;
+        height: 1100px;
+        margin: 100px auto;
+    }
+        .font_08 {
+            position: relative;
+            clear: both;
+            width: 1000px;
+            height: 200px;
+            line-height: 200px;
+            font-size: 8rem;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 auto;
+            background: #fff;
+        }
+        .photo_06 {
+            position: relative;
+            clear: both;
+            width: 700px;
+            height: 700px;
+            margin: 50px auto;
+        }
+    .photo_box_08 {
+        position: relative;
+        clear: both;
+        width: 1000px;
+        height: 1800px;
+        margin: 0 auto;
+        background: #f1f1f1;
+    }
+        .font_09 {
+            position: relative;
+            clear: both;
+            width: 1000px;
+            height: 400px;
+            line-height: 200px;
+            font-size: 8rem;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .font_10 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 320px;
+            line-height: 80px;
+            font-size: 3rem;
+            color: #333;
+            text-align: center;
+            margin: 50px auto;
+            background: #fff;
+        }
+        .photo_07 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 800px;
+            margin: 50px auto;
+        }
+
+    .photo_box_09 {
+        position: relative;
+        clear: both;
+        width: 1000px;
+        height: 2700px;
+        margin: 0 auto;
+    }
+        .font_11 {
+            position: relative;
+            clear: both;
+            width: 1000px;
+            height: 200px;
+            line-height: 200px;
+            font-size: 8rem;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .font_12 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 500px;
+            line-height: 80px;
+            font-size: 3rem;
+            color: #333;
+            text-align: center;
+            margin: 50px auto;
+            background: #fff;
+        }
+        .font_12 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 500px;
+            line-height: 80px;
+            font-size: 3rem;
+            color: #333;
+            text-align: center;
+            margin: 50px auto;
+            background: #fff;
+        }
+        .font_13 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 5rem;
+            color: #333;
+            text-align: center;
+            margin: 50px auto;
+            background: #fff;
+        }
+        .photo_08 {
+            position: relative;
+            clear: both;
+            width: 700px;
+            height: 700px;
+            margin: 50px auto;
+        }
+        .photo_09 {
+            position: relative;
+            clear: both;
+            width: 700px;
+            height: 700px;
+            margin: 50px auto;
+        }
+
+    .photo_box_10 {
+        position: relative;
+        clear: both;
+        width: 900px;
+        height: 900px;
+        margin: 0 auto;
+        background: #ddd;
+    }
+        .photo_10 {
+            position: relative;
+            clear: both;
+            width: 800px;
+            height: 800px;
+            margin: 0px auto;
+            padding-top: 50px;
+        }
+    
+    /* Model Size 시작 ------- */
+    .model_all {
+        position: relative;
+        clear: both;
+        width: 800px;
+        height: 300px;
+        margin: 100px auto;
+    }
+        .model_01 {
+            position: relative;
+            float: left;
+            width: 300px;
+            height: 300px;
+        }
+        .model_02 {
+            position: relative;
+            float: left;
+            width: 500px;
+            height: 300px;
+        }
+            #model_box_01 {
+                position: relative;
+                float: left;
+                width: 200px;
+                height: 300px;
+                font-size: 3rem;
+                color: #333;
+                text-align: right;
+                background: #f1f1f1;
+            }
+            #model_box_02 {
+                position: relative;
+                float: left;
+                width: 150px;
+                height: 300px;
+                line-height: 30px;
+                font-size: 1.4rem;
+                color: #333;
+                text-align: right;
+                background: #f1f1f1;
+            }
+            #model_box_03 {
+                position: relative;
+                float: left;
+                width: 150px;
+                height: 300px;
+                line-height: 30px;
+                font-size: 1.4rem;
+                color: #333;
+                text-align: right;
+                background: #f1f1f1;
+            }

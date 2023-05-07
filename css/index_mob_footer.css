@@ -1,0 +1,96 @@
+@media all and (max-width: 800px) {
+    /*  footer 시작 ------------- */
+    .footer_all {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+        background: #f90;
+    }
+
+        /* footer 1번째 박스 시작 --------------------*/
+        .footer_box_01 {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 450px;
+            background: #ddd;
+            margin: 0 auto;
+            text-indent: 10px;
+        }
+
+            #footer_box_01_08 {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 70px;
+                padding-top: 20px;
+                padding-left: 20px;
+                color: #333;
+                margin: 0 auto;
+            }
+                select.footer_select {
+                    appearance: none;
+                    position: relative;
+                    clear: both;
+                    width: 250px;
+                    height: 40px;
+                    font-size: 1.1rem;
+                    color: #333;
+                    text-align: center;
+                    border: 1px solid #ccc;
+                }
+
+        /* footer 2번째 박스 시작 --------------------*/
+        .footer_box_02 {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 450px;
+            background: #ddd;
+            margin: 0 auto;
+            text-indent: 10px;
+        }
+        /* footer 3번째 박스 시작 --------------------*/
+        .footer_box_03 {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 350px;
+            background: #ddd;
+            margin: 0 auto;
+            text-indent: 10px;
+        }
+
+
+        /* footer 4번째 박스 시작 --------------------*/
+        .footer_box_04 {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 350px;
+            padding-left: 0px;
+            background: #ddd;
+            margin: 0 auto;
+            text-indent: 10px;
+        }
+            #footer_box_04_02 {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 200px;
+                margin: 0 auto;
+                padding-left: 20px;
+                text-indent: 0px;
+                font-size: 0.9rem;
+            }
+
+
+
+} /* 전체 CSS 끝 -----------------*/
+
+
+
+
